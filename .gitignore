@@ -13,3 +13,6 @@ openross/twisted/plugins/dropin.cache
 *.pid
 twistd.log
 MANIFEST.in
+.vagrant/
+vagrant_support/openross.py
+openross/openrossserver.log

@@ -1,0 +1,17 @@
+AWS_ACCESS_KEY_ID = ""
+AWS_SECRET_ACCESS_KEY = ""
+IMAGES_STORE = ''
+CACHE_LOCATION = '/srv/cache/'
+WEB_CACHE_LOCATION = '/'
+DEBUG = True
+
+# Add an image whitelist to stop attacks on service
+# USE_WHITELIST = True
+# MAX_SIZE = (2000, 2000)
+# IMAGE_WHITELIST_SETTING = [
+#    ('-1', '-1'),  # For passthrough
+#    ('72', '72'),
+#    ('200', '250'),
+#    ('1024', '768'),
+# ]
+# IMAGE_QUALITY = 90  # minimise artifacts but keep size down
