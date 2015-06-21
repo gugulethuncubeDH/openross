@@ -42,6 +42,14 @@ DEBUG = True
 8. Start nginx.
 9. Navigate to `http://localhost/path/to/image/in/your/s3/bucket`.
 
+## Vagrant Environment
+
+Install Vagrant (https://www.vagrantup.com) and VirtualBox (https://www.virtualbox.org).
+
+Copy `vagrant_support/openross.py.sample` to `vagrant_support/openross.py` and fill in the blank settings as appropriate.
+
+On the command line, inside the root of the repository, run `vagrant up`. Wait and your development environment will build itself. Access the site at `http://localhost:8080`.
+
 ## Usage
 
 OpenRoss uses a very simple URL scheme http://host/WIDTH/HEIGHT/MODE/path/to/image
